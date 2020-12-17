@@ -9,34 +9,5 @@
 }
 
 .demo-3 {
-  display: flex;
   border: solid 1px green;
-  flex-grow: 1;
-}
-
-.fx-layout-column {
-  display: flex;
-  flex-direction: column;
-}
-
-.fx-layout-row {
-  display: flex;
-  flex-direction: row;
-}
-
-.fx-flex-33 {
-  flex: 1 1 100%;
-  max-height: 33%;
-  display: flex;
-}
-
-.fx-flex-22 {
-  flex: 1 1 100%;
-  max-width: 22%;
-}
-
-.fx-flex-205px {
-  flex: 1 1 100%;
-  max-height: 205px;
-  display: flex;
 }

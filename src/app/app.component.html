@@ -1,12 +1,12 @@
 <div *ngFor="let block of blocks">
-  <div class="demo fx-layout-column">
-    <div class="fx-flex-33"></div>
-    <div class="demo-2 fx-flex-33 flex-layout-row">
-      <div class="demo-2 fx-flex-22"></div>
-      <div  class="demo-2 fx-flex-205px"></div>
-      <div class="demo-2 fx-flex-22"></div>
+  <div fxLayout='column' class="demo">
+    <div fxFlex="33"></div>
+    <div fxFlex="33%" fxLayout="row" class="demo-2">
+      <div fxFlex="22%" class="demo-2"></div>
+      <div fxFlex="205px" class="demo-2"></div>
+      <div fxFlex="30" class="demo-2"></div>
     </div>
 
-    <div class="demo-3"></div>
+    <div fxFlex class="demo-3"></div>
   </div>
 </div>
